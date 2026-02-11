@@ -33,17 +33,24 @@ Follow these steps to set up the project on your local machine.
 ```bash
 git clone <repository_url>
 cd loan-prediction-app
+```
 ### 2.Create a Virtual Environment (Recommended)
-
+```bash
 streamlit run app.py
+```
 ### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 ### 4. Run 
+```bash
 streamlit run app.py
+```
 
 ### How it works 
 
 ## Test Case 1: The "Ideal" Borrower (Should be LOW Risk)
+```bash
 Use these values to test if your model correctly identifies a safe loan.
 Loan Amount: $5,000
 Term: 36 Months
@@ -56,3 +63,4 @@ Home Ownership: MORTGAGE
 Employment Length: 10+ years
 Expected Result: Low Probability (< 10%)
 Why? High income, low loan amount, and excellent credit grade usually mean the borrower will pay back.
+```
